@@ -71,6 +71,7 @@ Developed by: Register Number*/
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![Screenshot 2024-11-08 093015](https://github.com/user-attachments/assets/b99cd892-9bb1-4ce3-af35-2582d8dd8552)
 
 ### Fig 3:Invoke the Cadence Environment
 
@@ -83,12 +84,14 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![image](https://github.com/user-attachments/assets/c4aca50e-6768-4b3f-bed1-4e26c24f74a5)
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-11-08 093221](https://github.com/user-attachments/assets/0bc0ef3d-d814-4edc-b254-831648a5226e)
 
 ### Fig 5:cds.lib file Creation
 
@@ -131,7 +134,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
-![Screenshot 2024-11-08 093318](https://github.com/user-attachments/assets/cfe019f9-0567-4366-a678-dd16979e88b2)
+![Screenshot 2024-11-08 093221](https://github.com/user-attachments/assets/3ddaec30-de00-44db-92bc-d1e730e9198f)
+
 
 ### Fig 8: Compiled database in worklib
 
@@ -155,6 +159,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![Screenshot 2024-11-08 093318](https://github.com/user-attachments/assets/f7b85a8f-d089-4cc1-857f-b0dc7dde4b70)
 
 ### Fig 9: Elaboration Launch Option
 
