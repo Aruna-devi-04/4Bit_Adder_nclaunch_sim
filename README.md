@@ -111,6 +111,7 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-11-08 093221](https://github.com/user-attachments/assets/9f74c362-0b10-4b20-abf4-cb866f4bb4b9)
 
 ### Fig 7: Nclaunch Window
 
@@ -130,6 +131,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2024-11-08 093318](https://github.com/user-attachments/assets/cfe019f9-0567-4366-a678-dd16979e88b2)
 
 ### Fig 8: Compiled database in worklib
 
@@ -165,10 +167,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-11-08 093409](https://github.com/user-attachments/assets/ba142728-b0ed-4885-8f17-18f6ab359340)
 
 ### Fig 10: Design Browser window for simulation
+![Screenshot 2024-11-08 093441](https://github.com/user-attachments/assets/5a863631-3200-4d4c-88ac-230c9b8d0065)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![Screenshot 2024-11-08 093633](https://github.com/user-attachments/assets/7bc22343-b7e2-437b-b941-ed5469c96e51)
 
 ### Fig 12: Simulation Waveform Window
 
